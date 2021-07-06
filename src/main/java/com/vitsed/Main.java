@@ -1,7 +1,5 @@
 package com.vitsed;
 
-import java.text.ParseException;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
