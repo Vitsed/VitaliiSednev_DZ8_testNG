@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">64 methods,   64 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(-5, 10, -15)">testAdd(-5, 10, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(0, 10, -10)">testAdd(0, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(-5, -2, -3)">testAdd(-5, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(5, 2, 3)">testAdd(5, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(100, 1, 99)">testAdd(100, 1, 99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(10, 5, 5)">testAdd(10, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(-100, -50, -50)">testAdd(-100, -50, -50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testAdd(-1, 2, -3)">testAdd(-1, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(0, 0, -10)">testDiv(0, 0, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(-3, 9, -3)">testDiv(-3, 9, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(10, 100, 10)">testDiv(10, 100, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(2, 6, 3)">testDiv(2, 6, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(1, 5, 5)">testDiv(1, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(-1, -50, 50)">testDiv(-1, -50, 50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(1, -3, -3)">testDiv(1, -3, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testDiv(5, 10, 2)">testDiv(5, 10, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(0, -50, 0)">testMult(0, -50, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(-6, 2, -3)">testMult(-6, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(0, 0, -15)">testMult(0, 0, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(6, 2, 3)">testMult(6, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(25, 5, 5)">testMult(25, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(6, -2, -3)">testMult(6, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(-100, -10, 10)">testMult(-100, -10, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testMult(144, 12, 12)">testMult(144, 12, 12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(5, 10, -15)">testNotAdd(5, 10, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(1, 2, -3)">testNotAdd(1, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(100, 2, 3)">testNotAdd(100, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(-10, 5, 5)">testNotAdd(-10, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(-100, 1, 99)">testNotAdd(-100, 1, 99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(100, -50, -50)">testNotAdd(100, -50, -50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(10, 10, -10)">testNotAdd(10, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotAdd(5, -2, -3)">testNotAdd(5, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(-10, 5, 5)">testNotDiv(-10, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(-100, 1, 99)">testNotDiv(-100, 1, 99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(100, -50, -50)">testNotDiv(100, -50, -50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(100, 2, 3)">testNotDiv(100, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(5, 10, -15)">testNotDiv(5, 10, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(10, 10, -10)">testNotDiv(10, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(1, 2, -3)">testNotDiv(1, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotDiv(5, -2, -3)">testNotDiv(5, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(5, -2, -3)">testNotMult(5, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(1, 2, -3)">testNotMult(1, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(100, -50, -50)">testNotMult(100, -50, -50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(-100, 1, 99)">testNotMult(-100, 1, 99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(100, 2, 3)">testNotMult(100, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(5, 10, -15)">testNotMult(5, 10, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(10, 10, -10)">testNotMult(10, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotMult(-10, 5, 5)">testNotMult(-10, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(-100, 1, 99)">testNotSub(-100, 1, 99)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(100, 2, 3)">testNotSub(100, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(1, 2, -3)">testNotSub(1, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(5, -2, -3)">testNotSub(5, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(10, 10, -10)">testNotSub(10, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(100, -50, -50)">testNotSub(100, -50, -50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(-10, 5, 5)">testNotSub(-10, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testNotSub(5, 10, -15)">testNotSub(5, 10, -15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(-1, 2, 3)">testSub(-1, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(0, 5, 5)">testSub(0, 5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(-20, -10, 10)">testSub(-20, -10, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(-5, 10, 15)">testSub(-5, 10, 15)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(5, 2, -3)">testSub(5, 2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(1, -2, -3)">testSub(1, -2, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(100, 101, 1)">testSub(100, 101, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.vitsed.CalculatorTest" hash-for-method="testSub(-100, 50, 150)">testSub(-100, 50, 150)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vitsed.CalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(-5, 10, -15)">
+                  </a> <!-- testAdd(-5, 10, -15) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(-5, 10, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(0, 10, -10)">
+                  </a> <!-- testAdd(0, 10, -10) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(0, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(-5, -2, -3)">
+                  </a> <!-- testAdd(-5, -2, -3) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(-5, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(5, 2, 3)">
+                  </a> <!-- testAdd(5, 2, 3) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(5, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(100, 1, 99)">
+                  </a> <!-- testAdd(100, 1, 99) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(100, 1, 99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(10, 5, 5)">
+                  </a> <!-- testAdd(10, 5, 5) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(10, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(-100, -50, -50)">
+                  </a> <!-- testAdd(-100, -50, -50) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(-100, -50, -50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdd(-1, 2, -3)">
+                  </a> <!-- testAdd(-1, 2, -3) -->
+                  <span class="method-name">testAdd</span>
+                  <span class="parameters">(-1, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(0, 0, -10)">
+                  </a> <!-- testDiv(0, 0, -10) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(0, 0, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(-3, 9, -3)">
+                  </a> <!-- testDiv(-3, 9, -3) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(-3, 9, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(10, 100, 10)">
+                  </a> <!-- testDiv(10, 100, 10) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(10, 100, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(2, 6, 3)">
+                  </a> <!-- testDiv(2, 6, 3) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(2, 6, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(1, 5, 5)">
+                  </a> <!-- testDiv(1, 5, 5) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(1, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(-1, -50, 50)">
+                  </a> <!-- testDiv(-1, -50, 50) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(-1, -50, 50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(1, -3, -3)">
+                  </a> <!-- testDiv(1, -3, -3) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(1, -3, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiv(5, 10, 2)">
+                  </a> <!-- testDiv(5, 10, 2) -->
+                  <span class="method-name">testDiv</span>
+                  <span class="parameters">(5, 10, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(0, -50, 0)">
+                  </a> <!-- testMult(0, -50, 0) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(0, -50, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(-6, 2, -3)">
+                  </a> <!-- testMult(-6, 2, -3) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(-6, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(0, 0, -15)">
+                  </a> <!-- testMult(0, 0, -15) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(0, 0, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(6, 2, 3)">
+                  </a> <!-- testMult(6, 2, 3) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(6, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(25, 5, 5)">
+                  </a> <!-- testMult(25, 5, 5) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(25, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(6, -2, -3)">
+                  </a> <!-- testMult(6, -2, -3) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(6, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(-100, -10, 10)">
+                  </a> <!-- testMult(-100, -10, 10) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(-100, -10, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult(144, 12, 12)">
+                  </a> <!-- testMult(144, 12, 12) -->
+                  <span class="method-name">testMult</span>
+                  <span class="parameters">(144, 12, 12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(5, 10, -15)">
+                  </a> <!-- testNotAdd(5, 10, -15) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(5, 10, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(1, 2, -3)">
+                  </a> <!-- testNotAdd(1, 2, -3) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(1, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(100, 2, 3)">
+                  </a> <!-- testNotAdd(100, 2, 3) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(100, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(-10, 5, 5)">
+                  </a> <!-- testNotAdd(-10, 5, 5) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(-10, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(-100, 1, 99)">
+                  </a> <!-- testNotAdd(-100, 1, 99) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(-100, 1, 99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(100, -50, -50)">
+                  </a> <!-- testNotAdd(100, -50, -50) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(100, -50, -50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(10, 10, -10)">
+                  </a> <!-- testNotAdd(10, 10, -10) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(10, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotAdd(5, -2, -3)">
+                  </a> <!-- testNotAdd(5, -2, -3) -->
+                  <span class="method-name">testNotAdd</span>
+                  <span class="parameters">(5, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(-10, 5, 5)">
+                  </a> <!-- testNotDiv(-10, 5, 5) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(-10, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(-100, 1, 99)">
+                  </a> <!-- testNotDiv(-100, 1, 99) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(-100, 1, 99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(100, -50, -50)">
+                  </a> <!-- testNotDiv(100, -50, -50) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(100, -50, -50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(100, 2, 3)">
+                  </a> <!-- testNotDiv(100, 2, 3) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(100, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(5, 10, -15)">
+                  </a> <!-- testNotDiv(5, 10, -15) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(5, 10, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(10, 10, -10)">
+                  </a> <!-- testNotDiv(10, 10, -10) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(10, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(1, 2, -3)">
+                  </a> <!-- testNotDiv(1, 2, -3) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(1, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDiv(5, -2, -3)">
+                  </a> <!-- testNotDiv(5, -2, -3) -->
+                  <span class="method-name">testNotDiv</span>
+                  <span class="parameters">(5, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(5, -2, -3)">
+                  </a> <!-- testNotMult(5, -2, -3) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(5, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(1, 2, -3)">
+                  </a> <!-- testNotMult(1, 2, -3) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(1, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(100, -50, -50)">
+                  </a> <!-- testNotMult(100, -50, -50) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(100, -50, -50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(-100, 1, 99)">
+                  </a> <!-- testNotMult(-100, 1, 99) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(-100, 1, 99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(100, 2, 3)">
+                  </a> <!-- testNotMult(100, 2, 3) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(100, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(5, 10, -15)">
+                  </a> <!-- testNotMult(5, 10, -15) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(5, 10, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(10, 10, -10)">
+                  </a> <!-- testNotMult(10, 10, -10) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(10, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMult(-10, 5, 5)">
+                  </a> <!-- testNotMult(-10, 5, 5) -->
+                  <span class="method-name">testNotMult</span>
+                  <span class="parameters">(-10, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(-100, 1, 99)">
+                  </a> <!-- testNotSub(-100, 1, 99) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(-100, 1, 99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(100, 2, 3)">
+                  </a> <!-- testNotSub(100, 2, 3) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(100, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(1, 2, -3)">
+                  </a> <!-- testNotSub(1, 2, -3) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(1, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(5, -2, -3)">
+                  </a> <!-- testNotSub(5, -2, -3) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(5, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(10, 10, -10)">
+                  </a> <!-- testNotSub(10, 10, -10) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(10, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(100, -50, -50)">
+                  </a> <!-- testNotSub(100, -50, -50) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(100, -50, -50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(-10, 5, 5)">
+                  </a> <!-- testNotSub(-10, 5, 5) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(-10, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotSub(5, 10, -15)">
+                  </a> <!-- testNotSub(5, 10, -15) -->
+                  <span class="method-name">testNotSub</span>
+                  <span class="parameters">(5, 10, -15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(-1, 2, 3)">
+                  </a> <!-- testSub(-1, 2, 3) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(-1, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(0, 5, 5)">
+                  </a> <!-- testSub(0, 5, 5) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(0, 5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(-20, -10, 10)">
+                  </a> <!-- testSub(-20, -10, 10) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(-20, -10, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(-5, 10, 15)">
+                  </a> <!-- testSub(-5, 10, 15) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(-5, 10, 15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(5, 2, -3)">
+                  </a> <!-- testSub(5, 2, -3) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(5, 2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(1, -2, -3)">
+                  </a> <!-- testSub(1, -2, -3) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(1, -2, -3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(100, 101, 1)">
+                  </a> <!-- testSub(100, 101, 1) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(100, 101, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub(-100, 50, 150)">
+                  </a> <!-- testSub(-100, 50, 150) -->
+                  <span class="method-name">testSub</span>
+                  <span class="parameters">(-100, 50, 150)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.vitsed.CalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(64);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAdd')
+data.setCell(0, 2, 'com.vitsed.CalculatorTest')
+data.setCell(0, 3, 52);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAdd')
+data.setCell(1, 2, 'com.vitsed.CalculatorTest')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAdd')
+data.setCell(2, 2, 'com.vitsed.CalculatorTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDiv')
+data.setCell(3, 2, 'com.vitsed.CalculatorTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAdd')
+data.setCell(4, 2, 'com.vitsed.CalculatorTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMult')
+data.setCell(5, 2, 'com.vitsed.CalculatorTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAdd')
+data.setCell(6, 2, 'com.vitsed.CalculatorTest')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMult')
+data.setCell(7, 2, 'com.vitsed.CalculatorTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testNotSub')
+data.setCell(8, 2, 'com.vitsed.CalculatorTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMult')
+data.setCell(9, 2, 'com.vitsed.CalculatorTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAdd')
+data.setCell(10, 2, 'com.vitsed.CalculatorTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testNotDiv')
+data.setCell(11, 2, 'com.vitsed.CalculatorTest')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testNotMult')
+data.setCell(12, 2, 'com.vitsed.CalculatorTest')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testNotSub')
+data.setCell(13, 2, 'com.vitsed.CalculatorTest')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNotAdd')
+data.setCell(14, 2, 'com.vitsed.CalculatorTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAdd')
+data.setCell(15, 2, 'com.vitsed.CalculatorTest')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMult')
+data.setCell(16, 2, 'com.vitsed.CalculatorTest')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testDiv')
+data.setCell(17, 2, 'com.vitsed.CalculatorTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testNotAdd')
+data.setCell(18, 2, 'com.vitsed.CalculatorTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testAdd')
+data.setCell(19, 2, 'com.vitsed.CalculatorTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testMult')
+data.setCell(20, 2, 'com.vitsed.CalculatorTest')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testNotMult')
+data.setCell(21, 2, 'com.vitsed.CalculatorTest')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testNotAdd')
+data.setCell(22, 2, 'com.vitsed.CalculatorTest')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testDiv')
+data.setCell(23, 2, 'com.vitsed.CalculatorTest')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDiv')
+data.setCell(24, 2, 'com.vitsed.CalculatorTest')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSub')
+data.setCell(25, 2, 'com.vitsed.CalculatorTest')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testSub')
+data.setCell(26, 2, 'com.vitsed.CalculatorTest')
+data.setCell(26, 3, 2);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNotAdd')
+data.setCell(27, 2, 'com.vitsed.CalculatorTest')
+data.setCell(27, 3, 2);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMult')
+data.setCell(28, 2, 'com.vitsed.CalculatorTest')
+data.setCell(28, 3, 2);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testDiv')
+data.setCell(29, 2, 'com.vitsed.CalculatorTest')
+data.setCell(29, 3, 2);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testNotSub')
+data.setCell(30, 2, 'com.vitsed.CalculatorTest')
+data.setCell(30, 3, 2);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testNotSub')
+data.setCell(31, 2, 'com.vitsed.CalculatorTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testNotSub')
+data.setCell(32, 2, 'com.vitsed.CalculatorTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testDiv')
+data.setCell(33, 2, 'com.vitsed.CalculatorTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testNotAdd')
+data.setCell(34, 2, 'com.vitsed.CalculatorTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSub')
+data.setCell(35, 2, 'com.vitsed.CalculatorTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testMult')
+data.setCell(36, 2, 'com.vitsed.CalculatorTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testNotDiv')
+data.setCell(37, 2, 'com.vitsed.CalculatorTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testNotDiv')
+data.setCell(38, 2, 'com.vitsed.CalculatorTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testNotDiv')
+data.setCell(39, 2, 'com.vitsed.CalculatorTest')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testNotMult')
+data.setCell(40, 2, 'com.vitsed.CalculatorTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testNotAdd')
+data.setCell(41, 2, 'com.vitsed.CalculatorTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testSub')
+data.setCell(42, 2, 'com.vitsed.CalculatorTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSub')
+data.setCell(43, 2, 'com.vitsed.CalculatorTest')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testNotDiv')
+data.setCell(44, 2, 'com.vitsed.CalculatorTest')
+data.setCell(44, 3, 1);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testNotDiv')
+data.setCell(45, 2, 'com.vitsed.CalculatorTest')
+data.setCell(45, 3, 1);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testNotAdd')
+data.setCell(46, 2, 'com.vitsed.CalculatorTest')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testNotDiv')
+data.setCell(47, 2, 'com.vitsed.CalculatorTest')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testNotDiv')
+data.setCell(48, 2, 'com.vitsed.CalculatorTest')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testNotMult')
+data.setCell(49, 2, 'com.vitsed.CalculatorTest')
+data.setCell(49, 3, 1);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testNotAdd')
+data.setCell(50, 2, 'com.vitsed.CalculatorTest')
+data.setCell(50, 3, 1);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testSub')
+data.setCell(51, 2, 'com.vitsed.CalculatorTest')
+data.setCell(51, 3, 1);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testNotSub')
+data.setCell(52, 2, 'com.vitsed.CalculatorTest')
+data.setCell(52, 3, 1);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testSub')
+data.setCell(53, 2, 'com.vitsed.CalculatorTest')
+data.setCell(53, 3, 1);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testNotSub')
+data.setCell(54, 2, 'com.vitsed.CalculatorTest')
+data.setCell(54, 3, 1);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testNotMult')
+data.setCell(55, 2, 'com.vitsed.CalculatorTest')
+data.setCell(55, 3, 1);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testNotMult')
+data.setCell(56, 2, 'com.vitsed.CalculatorTest')
+data.setCell(56, 3, 1);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testDiv')
+data.setCell(57, 2, 'com.vitsed.CalculatorTest')
+data.setCell(57, 3, 1);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSub')
+data.setCell(58, 2, 'com.vitsed.CalculatorTest')
+data.setCell(58, 3, 1);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testNotSub')
+data.setCell(59, 2, 'com.vitsed.CalculatorTest')
+data.setCell(59, 3, 1);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testMult')
+data.setCell(60, 2, 'com.vitsed.CalculatorTest')
+data.setCell(60, 3, 1);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testNotMult')
+data.setCell(61, 2, 'com.vitsed.CalculatorTest')
+data.setCell(61, 3, 1);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testDiv')
+data.setCell(62, 2, 'com.vitsed.CalculatorTest')
+data.setCell(62, 3, 1);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testNotMult')
+data.setCell(63, 2, 'com.vitsed.CalculatorTest')
+data.setCell(63, 3, 1);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 151 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vitsed.CalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">showMessage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAdd(5, 2, 3)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(-1, 2, -3)</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(10, 5, 5)</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(-5, 10, -15)</span>
+                <span class="method-start">252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(0, 10, -10)</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(-5, -2, -3)</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(100, 1, 99)</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdd(-100, -50, -50)</span>
+                <span class="method-start">268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(2, 6, 3)</span>
+                <span class="method-start">275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(-3, 9, -3)</span>
+                <span class="method-start">279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(1, 5, 5)</span>
+                <span class="method-start">282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(5, 10, 2)</span>
+                <span class="method-start">285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(0, 0, -10)</span>
+                <span class="method-start">288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(1, -3, -3)</span>
+                <span class="method-start">290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(10, 100, 10)</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiv(-1, -50, 50)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(6, 2, 3)</span>
+                <span class="method-start">303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(-6, 2, -3)</span>
+                <span class="method-start">306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(25, 5, 5)</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(0, 0, -15)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(-100, -10, 10)</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(6, -2, -3)</span>
+                <span class="method-start">317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(144, 12, 12)</span>
+                <span class="method-start">320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult(0, -50, 0)</span>
+                <span class="method-start">324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(100, 2, 3)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(1, 2, -3)</span>
+                <span class="method-start">330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(-10, 5, 5)</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(5, 10, -15)</span>
+                <span class="method-start">335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(10, 10, -10)</span>
+                <span class="method-start">337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(5, -2, -3)</span>
+                <span class="method-start">339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(-100, 1, 99)</span>
+                <span class="method-start">341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotAdd(100, -50, -50)</span>
+                <span class="method-start">344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(100, 2, 3)</span>
+                <span class="method-start">346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(1, 2, -3)</span>
+                <span class="method-start">348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(-10, 5, 5)</span>
+                <span class="method-start">350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(5, 10, -15)</span>
+                <span class="method-start">353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(10, 10, -10)</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(5, -2, -3)</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(-100, 1, 99)</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotDiv(100, -50, -50)</span>
+                <span class="method-start">361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(100, 2, 3)</span>
+                <span class="method-start">364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(1, 2, -3)</span>
+                <span class="method-start">366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(-10, 5, 5)</span>
+                <span class="method-start">369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(5, 10, -15)</span>
+                <span class="method-start">371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(10, 10, -10)</span>
+                <span class="method-start">373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(5, -2, -3)</span>
+                <span class="method-start">375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(-100, 1, 99)</span>
+                <span class="method-start">377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMult(100, -50, -50)</span>
+                <span class="method-start">380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(100, 2, 3)</span>
+                <span class="method-start">382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(1, 2, -3)</span>
+                <span class="method-start">384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(-10, 5, 5)</span>
+                <span class="method-start">386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(5, 10, -15)</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(10, 10, -10)</span>
+                <span class="method-start">391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(5, -2, -3)</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(-100, 1, 99)</span>
+                <span class="method-start">395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotSub(100, -50, -50)</span>
+                <span class="method-start">397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(-1, 2, 3)</span>
+                <span class="method-start">400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(5, 2, -3)</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(0, 5, 5)</span>
+                <span class="method-start">403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(-5, 10, 15)</span>
+                <span class="method-start">405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(-20, -10, 10)</span>
+                <span class="method-start">407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(1, -2, -3)</span>
+                <span class="method-start">408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(100, 101, 1)</span>
+                <span class="method-start">410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSub(-100, 50, 150)</span>
+                <span class="method-start">413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endMessage</span>
+                <span class="method-start">415 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

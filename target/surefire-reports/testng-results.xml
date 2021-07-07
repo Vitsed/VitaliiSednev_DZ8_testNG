@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="64" passed="64">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="444" started-at="2021-07-06T20:21:50 SAMT" finished-at="2021-07-06T20:21:50 SAMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="444" started-at="2021-07-06T20:21:50 SAMT" finished-at="2021-07-06T20:21:50 SAMT">
+      <class name="com.vitsed.CalculatorTest">
+        <test-method status="PASS" signature="showMessage()[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="showMessage" is-config="true" duration-ms="19" started-at="2021-07-06T20:21:50 SAMT" finished-at="2021-07-06T20:21:50 SAMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showMessage -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="52" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testAdd" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testAddEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testDivEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="3" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[144]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testMultEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotAdd(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotAdd" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotAdd -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotDiv(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotDiv" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotDiv -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotMult(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotMult" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMult -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testNotSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testNotSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testNotEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="2" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(int, int, int)[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="testSub" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" data-provider="testSubEquals" finished-at="2021-07-06T20:21:50 SAMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="endMessage()[pri:0, instance:com.vitsed.CalculatorTest@55787112]" name="endMessage" is-config="true" duration-ms="1" started-at="2021-07-06T20:21:50 SAMT" finished-at="2021-07-06T20:21:50 SAMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMessage -->
+      </class> <!-- com.vitsed.CalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

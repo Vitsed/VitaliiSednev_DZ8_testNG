@@ -1,0 +1,399 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>64/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 06 20:21:50 SAMT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (444 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -1, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -5, 10, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 0, 10, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -5, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 1, 99</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testAdd()'><b>testAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, -50, -50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 2, 6, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -3, 9, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 10, 2</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 0, 0, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, -3, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 100, 10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testDiv()'><b>testDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -1, -50, 50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 6, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -6, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 25, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 0, 0, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, -10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 6, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 144, 12, 12</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testMult()'><b>testMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 0, -50, 0</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -10, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 10, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 10, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, 1, 99</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotAdd()'><b>testNotAdd</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, -50, -50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -10, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 10, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 10, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, 1, 99</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotDiv()'><b>testNotDiv</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, -50, -50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -10, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 10, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 10, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, 1, 99</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotMult()'><b>testNotMult</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, -50, -50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -10, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 10, -15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 10, 10, -10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, 1, 99</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testNotSub()'><b>testNotSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, -50, -50</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -1, 2, 3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 5, 2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 0, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -5, 10, 15</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -20, -10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 1, -2, -3</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: 100, 101, 1</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+<tr>
+<td title='com.vitsed.CalculatorTest.testSub()'><b>testSub</b><br>Test class: com.vitsed.CalculatorTest<br>Parameters: -100, 50, 150</td>
+<td></td>
+<td>0</td>
+<td>com.vitsed.CalculatorTest@55787112</td></tr>
+</table><p>
+</body>
+</html>

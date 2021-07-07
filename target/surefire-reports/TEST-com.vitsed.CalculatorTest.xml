@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vitsed.CalculatorTest" time="1.744" tests="64" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\MyProgramms\StudingTestNG\target\test-classes;D:\MyProgramms\StudingTestNG\target\classes;C:\Users\Vitsed\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Vitsed\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Vitsed\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Vitsed\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Vitsed\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Vitsed\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Vitsed\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Vitsed\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Vitsed\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Vitsed\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Vitsed\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Vitsed\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="RU"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vitsed\AppData\Local\Temp\surefire1572476995502742220\surefirebooter5888310432946752919.jar C:\Users\Vitsed\AppData\Local\Temp\surefire1572476995502742220 2021-07-06T20-21-48_000-jvmRun1 surefire3317803083879845871tmp surefire_02472197169342016333tmp"/>
+    <property name="surefire.test.class.path" value="D:\MyProgramms\StudingTestNG\target\test-classes;D:\MyProgramms\StudingTestNG\target\classes;C:\Users\Vitsed\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Vitsed\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Vitsed\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Vitsed\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Vitsed\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Vitsed\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Vitsed\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Vitsed\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Vitsed\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Vitsed\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Vitsed\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Vitsed\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Vitsed\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Vitsed\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vitsed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="basedir" value="D:\MyProgramms\StudingTestNG"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vitsed\AppData\Local\Temp\surefire1572476995502742220\surefirebooter5888310432946752919.jar;C:\Users\Vitsed\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="Vitsed"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Vitsed\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vitsed\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="D:\MyProgramms\StudingTestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="ru"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk16.0.0_36\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\ProgramData\Boxstarter;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon Corretto\jdk16.0.0_36;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Soft\Servers\wildfly\wildfly-18.0.1.Final\bin;C:\Users\Vitsed\AppData\Local\Microsoft\WindowsApps;D:\Soft\Databases\sqlite-tools-win32-x86-3210000;C:\Program Files\Microsoft VS Code\bin;C:\Users\Vitsed\AppData\Roaming\npm;C:\Users\Vitsed\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Maven\apache-maven-3.6.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.054"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.003"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.004"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.003"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testAdd" classname="com.vitsed.CalculatorTest" time="0.003"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.003"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.003"/>
+  <testcase name="testMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotAdd" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotDiv" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotMult" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testNotSub" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.002"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+  <testcase name="testSub" classname="com.vitsed.CalculatorTest" time="0.001"/>
+</testsuite>
