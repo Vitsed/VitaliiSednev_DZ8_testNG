@@ -18,23 +18,39 @@ public class CalculatorTest {
         System.out.println("Testing finished");
     }
 
+    private static Object[][] fitTaskEqualizer(Object[][] o) {
+        Object[][] test = o;
+        for (int i = 0; i < test.length; i++) {
+            for (int t = 0; t < test[i].length; t++) {
+                if (test[i][t] == null || test[i][t].getClass().equals(String.class)) {
+                    continue;
+                } else {
+                    test[i][t] += "";
+                }
+            }
+        }
+        return test;
+    }
+
     @DataProvider
     public Object[][] testAddEquals() {
-        return new Object[][]{
+        Object[][] objects = new Object[][]{
                 {5, 2, 3},
                 {-1, 2, -3},
                 {10, 5, 5},
                 {-5, 10, -15},
                 {0, 10, -10},
                 {-5, -2, -3},
-                {100, 1, 99},
-                {-100, -50, -50}
+                {100, 1, 99}
         };
+
+
+        return fitTaskEqualizer(objects);
     }
 
     @DataProvider
     public Object[][] testSubEquals() {
-        return new Object[][]{
+        Object[][] objects = new Object[][]{
                 {-1, 2, 3},
                 {5, 2, -3},
                 {0, 5, 5},
@@ -44,11 +60,12 @@ public class CalculatorTest {
                 {100, 101, 1},
                 {-100, 50, 150}
         };
+        return fitTaskEqualizer(objects);
     }
 
     @DataProvider
     public Object[][] testMultEquals() {
-        return new Object[][]{
+        Object[][] objects = new Object[][]{
                 {6, 2, 3},
                 {-6, 2, -3},
                 {25, 5, 5},
@@ -58,11 +75,12 @@ public class CalculatorTest {
                 {144, 12, 12},
                 {0, -50, 0}
         };
+        return fitTaskEqualizer(objects);
     }
 
     @DataProvider
     public Object[][] testDivEquals() {
-        return new Object[][]{
+        Object[][] objects = new Object[][]{
                 {2, 6, 3},
                 {-3, 9, -3},
                 {1, 5, 5},
@@ -72,60 +90,44 @@ public class CalculatorTest {
                 {10, 100, 10},
                 {-1, -50, 50}
         };
+        return fitTaskEqualizer(objects);
     }
 
+
     @DataProvider
-    public Object[][] testNotEquals() {
+    public Object[][] negativeTest() {
         return new Object[][]{
-                {100, 2, 3},
-                {1, 2, -3},
-                {-10, 5, 5},
-                {5, 10, -15},
-                {10, 10, -10},
-                {5, -2, -3},
-                {-100, 1, 99},
-                {100, -50, -50}
+                {"Недопустимое выражение!", "один", "два"},
+                {"Недопустимое выражение!", "5", "два"},
+                {"Недопустимое выражение!", "один", "1251"}
         };
     }
 
     @Test(dataProvider = "testAddEquals")
-    public void testAdd(int sum, int firstTerm, int secondTerm) {
-        Assert.assertEquals(sum, new Calculator().add(firstTerm, secondTerm), "Значения не равны!");
+    public void testAdd(String sum, String firstTerm, String secondTerm) {
+        Assert.assertEquals(sum + "", new Calculator().add(firstTerm, secondTerm), "Значения не равны!");
     }
-
-    @Test(dataProvider = "testNotEquals")
-    public void testNotAdd(int sum, int firstTerm, int secondTerm) {
-        Assert.assertNotEquals(sum, new Calculator().add(firstTerm, secondTerm));
-    }
-
 
     @Test(dataProvider = "testSubEquals")
-    public void testSub(int dif, int reduced, int sub) {
+    public void testSub(String dif, String reduced, String sub) {
         Assert.assertEquals(dif, new Calculator().sub(reduced, sub), "Значения не равны!");
     }
 
-    @Test(dataProvider = "testNotEquals")
-    public void testNotSub(int dif, int reduced, int sub) {
-        Assert.assertNotEquals(dif, new Calculator().sub(reduced, sub), "Значения равны!");
-    }
-
     @Test(dataProvider = "testMultEquals")
-    public void testMult(int product, int multiplier1, int multiplier2) {
+    public void testMult(String product, String multiplier1, String multiplier2) {
         Assert.assertEquals(product, new Calculator().mult(multiplier1, multiplier2), "Значения не равны!");
     }
 
-    @Test(dataProvider = "testNotEquals")
-    public void testNotMult(int product, int multiplier1, int multiplier2) {
-        Assert.assertNotEquals(product, new Calculator().mult(multiplier1, multiplier2), "Значения равны!");
-    }
-
     @Test(dataProvider = "testDivEquals")
-    public void testDiv(int quotient, int divisible, int divisor) {
+    public void testDiv(String quotient, String divisible, String divisor) {
         Assert.assertEquals(quotient, new Calculator().div(divisible, divisor), "Значения не равны!");
     }
 
-    @Test(dataProvider = "testNotEquals")
-    public void testNotDiv(int quotient, int divisible, int divisor) {
-        Assert.assertNotEquals(quotient, new Calculator().div(divisible, divisor), "Значения равны!");
+    @Test(dataProvider = "negativeTest")
+    public void testNegative(String result, String number1, String number2) {
+        Assert.assertEquals(result, new Calculator().add(number1, number2), "Значения не равны!");
+        Assert.assertEquals(result, new Calculator().div(number1, number2), "Значения не равны!");
+        Assert.assertEquals(result, new Calculator().sub(number1, number2), "Значения не равны!");
+        Assert.assertEquals(result, new Calculator().mult(number1, number2), "Значения не равны!");
     }
 }
